@@ -2,7 +2,7 @@ console.log("javascript hit")
 $(".sub").click(function () {
     alert("This works");
     console.log(click);
-});
+
 
 $(this).on("click", function(){
     var search = $("this").value("submit");
