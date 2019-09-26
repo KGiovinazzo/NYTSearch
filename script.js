@@ -21,5 +21,3 @@ function display(){
             console.log(response);
         })
 };
-
-});

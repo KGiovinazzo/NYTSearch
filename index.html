@@ -12,17 +12,27 @@
 </head>
 
 <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">New York Times</h1>
-            <img src="Images/newspaper.png" class="news">
+    
+        <div class="jumbotron jumbotron-fluid text-center">
+            <div class="row d-flex justify-content-center">
+                <img src="Images/newspaper.png" class="news">
+                <h1 class="display-4">New York Times</h1>   
+            </div>
         </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid">
+    
+
+    <div class="container">
+        <div class="jumbotron">
+        <!-- Nav Bar -->
+
         <nav class="navbar navbar-light bg-light">
-            <span class="navbar-brand mb-0 h1">Search Parameters</span>
-        </nav>
+                <span class="navbar-text">
+                    Search Parameters
+                </span>
+              </nav>
+
         <br>
+
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Search Term:</span>
@@ -30,6 +40,7 @@
             <input type="text" class="form-control" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default">
         </div>
+
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Number of Records to Retrieve:</span>
@@ -37,6 +48,7 @@
             <input type="text" class="form-control" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default">
         </div>
+
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">Start Year (Optional):</span>
@@ -44,6 +56,7 @@
             <input type="text" class="form-control" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default">
         </div>
+
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroup-sizing-default">End Year (Optional):</span>
@@ -51,9 +64,14 @@
             <input type="text" class="form-control" aria-label="Sizing example input"
                 aria-describedby="inputGroup-sizing-default">
         </div>
+
         <input class="sub" type="submit" value="Submit">
         <input class="res" type="reset" value="Reset">
+
     </div>
+</div>
+    
+
     <div class="jumbotron jumbotron-fluid">
         <nav class="navbar navbar-light bg-light">
             <span class="navbar-brand mb-0 h1">Top Articles</span>
