@@ -2,7 +2,7 @@ console.log("javascript hit")
 $(".sub").click(function () {
     alert("This works");
     console.log(click);
-});
+
 
 $(this).on("click", function(){
     var search = $("this").value("submit");
@@ -21,3 +21,8 @@ function display(){
             console.log(response);
         })
 };
+<<<<<<< HEAD
+=======
+
+});
+>>>>>>> 8e16b4dd1dd2b66c2affb87dcdb89b299a967318
